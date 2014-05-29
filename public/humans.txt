@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Jose Perales -- Software Engineer -- @joseperales
+
+# THANKS
+
+    All Friends that help to build Nelibox
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Ember.js

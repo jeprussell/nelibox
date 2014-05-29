@@ -1,0 +1,61 @@
+<form>
+<div class="ui clearing divider"></div>
+ <div class="ui two column relaxed grid">
+  <div class="column">
+    <div class="ui fluid form segment">
+      <h3 class="ui header">Llene el Formulario</h3>
+      <div class="two fields">
+        <div class="field">
+          <label>Nombre</label>
+          {{input type="text" placeholder="Nombre" class="error" id="thing_name" value=nombre maxlength="100"}}
+          {{#if errors.nombre.firstObject}}
+            <div class="ui red pointing above ui label">{{errors.nombre.firstObject}}</div>
+          {{/if}}
+        </div>
+        <div class="field">
+          <label>Apellido</label>
+          {{input type="text" placeholder="Apellido" value=apellido maxlength="100"}}
+          {{#if errors.apellido.firstObject}}
+            <div class="ui red pointing above ui label">{{errors.apellido.firstObject}}</div>
+          {{/if}}
+        </div>
+      </div>
+        <label>Email</label>
+        <div class="ui left icon input">
+        	{{input type="text" placeholder="Agrega tu email" value=email}}
+			<i class="mail icon"></i>
+	          {{#if errors.email.firstObject}}
+	            <div class="ui red pointing above ui label">{{errors.email.firstObject}}</div>
+	          {{/if}}
+        </div>
+        <div class="field">
+        <label>Mensaje</label>
+        {{textarea valueBinding="mensaje" id="message" name="message" maxlength="500"}}
+		{{#if errors.mensaje.firstObject}}
+	        <div class="ui red pointing above ui label">{{errors.mensaje.firstObject}}</div>
+	    {{/if}}
+        </div>
+		<p class="text-center"><button type="submit" class="btn button" {{bind-attr disabled="isInvalid"}} {{action 'Contacto'}}><i class="mail icon"></i>Enviar</button></p>
+      <div class="ui error message"></div>
+    </div>
+  </div>
+    <div class="column">
+    <div class="ui fluid form segment">
+      	<div class="item">
+		<div class="content">
+	    	<h1 class="herotext"><strong>Solo unos Datos para Contactarnos..</strong></h1>
+			<h2 class="ui statistic">Y pronto atenderemos y le responderemos.</h2>
+			<p class="text-center">Vista Prev&iacute;a de Su Mensaje</p>
+	    </div>
+		</div>
+		<div class="ui horizontal divider"> <i class="circular mail icon"></i></div>
+      
+       <div class="field">
+        	<h2>Hola les escribe <strong>&nbsp;{{nombre}}  {{apellido}}&nbsp;</strong> mi email es &nbsp;<strong>{{email}}</strong>&nbsp; mi contacto es por lo siguiente:<strong>{{textarea value=mensaje maxlength="500" rows="6"}}</strong></h2>
+      </div>
+    </div>
+  </div>
+
+</div>
+</form>
+<div class="ui clearing divider"></div>
