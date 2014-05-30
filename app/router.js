@@ -1,5 +1,5 @@
 var Router = Ember.Router.extend({
-  location: ENV.locationType
+  location: ENV.locationType,
 }); // ensure we don't share routes between all Router instances
 
 Router.map(function() {
@@ -16,6 +16,9 @@ Router.map(function() {
   this.route('consultas');
   this.route('social');
   this.route('gracias');
+  this.route('mercadeo');
+  this.route('videos');
+  this.route('error', { path: "/*path" });
   //this.resource('posts', function() {
   //this.route('new');
   //});
