@@ -31,6 +31,8 @@ app.import('vendor/quicksand/jquery.quicksand.min.js');
 app.import('vendor/animate.css/animate.min.css');
 app.import('vendor/momentjs/moment.js');
 app.import('vendor/jquery-address/src/jquery.address.js');
+app.import('vendor/ember-spin-box/dist/ember-spin-box.js');
+app.import('vendor/ember-spin-box/dist/ember-spin-box.css');
 
 // If the library that you are including contains AMD or ES6 modules that
 // you would like to import into your application please specify an

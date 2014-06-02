@@ -1,3 +1,6 @@
+export default DS.RESTSerializer.extend({  
+    primaryKey: '_id'
+});
 // serializers/geoip.js
 //export default DS.RESTSerializer.extend({
 //	 normalizePayload: function(geoip, payload) {
@@ -44,8 +47,8 @@
 //	}
 //});
 
-export default DS.ActiveModelSerializer.extend({
-  primaryKey: '_id',
+/* export default DS.ActiveModelSerializer.extend({
+ primaryKey: '_id',
   normalizeId: function() {
    // console.log('normalizeId was called');
     return this._super.apply(this, arguments);
@@ -53,4 +56,16 @@ export default DS.ActiveModelSerializer.extend({
   serializeIntoHash: function(hash, type, record, options) {
     Ember.merge(hash, this.serialize(record, options));
 	}
-}).create();
+}).create();*/
+
+
+/*
+extractArray: function(store, type, payload, id, requestType) {
+        payload.forEach(function(element, key){
+            element.id = element[type.idField];
+        });
+        var newPayload = {};
+        newPayload[Ember.String.pluralize(type.typeKey)] = payload;
+        return this._super(store, type, newPayload, id, requestType);
+    }
+*/
