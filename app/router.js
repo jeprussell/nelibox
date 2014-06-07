@@ -1,6 +1,6 @@
 var Router = Ember.Router.extend({
-  location: ENV.locationType,
-}); // ensure we don't share routes between all Router instances
+  location: ENV.locationType
+});
 
 Router.map(function() {
   this.route('caracteristicas');

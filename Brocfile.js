@@ -15,7 +15,6 @@ var app = new EmberApp({
 
 // Use this to add additional libraries to the generated output files.
 app.import('vendor/ember-data/ember-data.js');
-
 app.import('vendor/ember-i18n/lib/i18n.js');
 app.import('vendor/cldr/plurals.js');
 app.import('vendor/ember-validations/packages/ember-validations/ember-validations-latest.min.js');
@@ -24,12 +23,12 @@ app.import('vendor/modernizr/modernizr.js');
 app.import('vendor/normalize-css/normalize.css');
 app.import('vendor/semantic-ui/build/packaged/javascript/semantic.js');
 app.import('vendor/semantic-ui/build/packaged/css/semantic.css');
-app.import('vendor/fullcalendar/fullcalendar.css');
-app.import('vendor/fullcalendar/fullcalendar.print.css');
-app.import('vendor/fullcalendar/fullcalendar.min.js');
+app.import('vendor/moment/moment.js');
+app.import('vendor/fullcalendar/dist/fullcalendar.css');
+app.import('vendor/fullcalendar/dist/fullcalendar.print.css');
+app.import('vendor/fullcalendar/dist/fullcalendar.min.js');
 app.import('vendor/quicksand/jquery.quicksand.min.js');
 app.import('vendor/animate.css/animate.min.css');
-app.import('vendor/momentjs/moment.js');
 app.import('vendor/jquery-address/src/jquery.address.js');
 app.import('vendor/ember-spin-box/dist/ember-spin-box.js');
 app.import('vendor/ember-spin-box/dist/ember-spin-box.css');
