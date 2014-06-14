@@ -367,7 +367,7 @@ before-footer a.icon {
 	font-size: 40px;
 	-webkit-transition: all 0.4s ease-in-out;  /* Chrome 1-25, Safari 3.2+ */
 	-moz-transition: all 0.4s ease-in-out;  /* Firefox 4-15 */
-	-o-transition: all 0.4s ease-in-out;  /* Opera 10.50â€“12.00 */
+	-o-transition: all 0.4s ease-in-out;  /* Opera 10.50�??12.00 */
 	transition: all 0.4s ease-in-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.50+ */
 }
 before-footer a {
@@ -388,7 +388,7 @@ footer a.icon {
 	font-size: 40px;
 	-webkit-transition: all 0.4s ease-in-out;  /* Chrome 1-25, Safari 3.2+ */
 	-moz-transition: all 0.4s ease-in-out;  /* Firefox 4-15 */
-	-o-transition: all 0.4s ease-in-out;  /* Opera 10.50â€“12.00 */
+	-o-transition: all 0.4s ease-in-out;  /* Opera 10.50�??12.00 */
 	transition: all 0.4s ease-in-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.50+ */
 }
 footer a.icon:hover {
@@ -1105,7 +1105,7 @@ table {
 	padding-right: 40px;
 	-webkit-transition: all 0.4s ease-in-out;  /* Chrome 1-25, Safari 3.2+ */
     -moz-transition: all 0.4s ease-in-out;  /* Firefox 4-15 */
-    -o-transition: all 0.4s ease-in-out;  /* Opera 10.50â??12.00 */
+    -o-transition: all 0.4s ease-in-out;  /* Opera 10.50�??12.00 */
     transition: all 0.4s ease-in-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.50+ */
     display:inline-block;
     

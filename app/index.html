@@ -18,7 +18,7 @@
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	
+
 	ga('create', 'UA-7709588-13', 'auto');
 	ga('send', 'pageview');
   </script>
@@ -35,11 +35,13 @@
   </head>
   <body>
     <script>
-      window.ENV = {{ENV}};
+      window.NeliboxENV = {{ENV}};
+      window.EmberENV = window.NeliboxENV.EmberENV;
     </script>
+    <script src="assets/vendor.js"></script>
     <script src="assets/nelibox.js"></script>
     <script>
-      window.Nelibox = require('nelibox/app')['default'].create(ENV.APP);
+      window.Nelibox = require('nelibox/app')['default'].create(NeliboxENV.APP);
     </script>
   </body>
 </html>

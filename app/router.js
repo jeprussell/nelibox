@@ -1,5 +1,7 @@
+import Ember from 'ember';
+
 var Router = Ember.Router.extend({
-  location: ENV.locationType
+  location: NeliboxENV.locationType
 });
 
 Router.map(function() {
@@ -23,10 +25,7 @@ Router.map(function() {
   //this.route('new');
   //});
 });
-//Router.reopen({
-//  location: 'none'
-//});
-// No muestra #
+
 Router.reopen({
    /* notifyGoogleAnalytics: function() {
     return ga ('send', 'pageview', {
@@ -41,7 +40,6 @@ Router.reopen({
   //location: history.pushState ? 'history' : 'hash'
   location: 'history'
 });
-
 
 Ember.Route.reopen({
   render: function(/*controller, model*/) {
