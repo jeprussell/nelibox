@@ -1,3 +1,155 @@
-<h2 id='title'>Welcome to Ember.js</h2>
+<!-- Header -->
+<div class="ui secondary pointing menu">
+  	{{#link-to 'index' class='item'}}
+    	<img class="rounded ui image" src="/front/img/nelibox.png" width="230px" alt="NeliBox"/>
+		<div class="sub header">Sistema de Gesti&oacute;n en la Nube</div>
+	{{/link-to}}
+		<div class="ui labeled icon right menu">
+			{{#link-to 'index' class='item'}}<i class="building icon"></i>Inicio{{/link-to}}
+			{{#link-to 'caracteristicas' class='item'}}<i class="browser icon"></i>Caracter&iacute;sticas{{/link-to}}
+			{{#link-to 'detalles' class='item'}}<i class="grid layout icon"></i>Detalles{{/link-to}} 
+		    {{#link-to 'blog' class='item'}}<i class="book basic icon"></i>Blog{{/link-to}}	
+		    {{#link-to 'contactar' class='item'}}<i class="lab basic icon"></i>Contactar{{/link-to}}
+		</div>
+</div> 
 
 {{outlet}}
+
+<!-- Footer -->
+<before-footer>
+<div class="ui center aligned four column grid before-footer">
+  <div class="row">
+    <div class="column">
+    	<div class="ui list">
+			<div class="ui icon header item">
+				 <a class="link">
+					 <i class="huge building icon link icon"></i>
+				 </a>
+			</div>
+			<div class="item">
+				<div class="header">NeliBox</div>
+			</div>
+			<div class="ui clearing divider"></div>
+			<div class="item">
+				<p>NeliBox es un Sistema integrado utilizado para gestionar los recursos recursos financieros, materiales y terceros de Cl&iacute;nicas.</p>
+			</div>
+		</div>
+	</div>
+    <div class="column">
+    	<div class="ui list">
+			<div class="ui icon header item">
+				 <a class="link">
+					 <i class="huge cloud icon link icon"></i>
+				 </a>
+			</div>
+			<div class="item">
+				<div class="header">Prueba o Demo</div>
+			</div>
+			<div class="ui clearing divider"></div>
+			<div class="item">
+				<p>Pruebelo sin registrarse <!-- o solicite un Demo por 30 Dias--></p>
+			</div>
+			<div class="item">
+		    	<a href="http://prueba.nelibox.com/index.php?test=2" target="_blank">Probar de una Vez *</a>
+			</div>
+			<div class="item">
+		    	<h6><small>* La Data de pruebas es restaurada diariamente</small></h6>
+			</div>			
+		</div>
+	</div>
+    <div class="column">
+    	<div class="ui list">
+			<div class="ui icon header item">
+				 <a class="link">
+					 <i class="huge chat icon link icon"></i>
+				 </a>
+			</div>
+			<div class="item">
+				<div class="header">Hable con Nosotros</div>
+			</div>
+			<div class="ui clearing divider"></div>
+			<div class="item">
+				<p>Llamarnos al</p>
+				<p>USA +1 954 840 3604</p>
+				<p>Venezuela +58 241 832 4731</p></li>
+			</div>
+			<div class="item">
+		    	<p>No quiere LLamar? envie un email a 
+
+		    	 {{#link-to 'contactar' class='item'}}sales@nelibox.com{{/link-to}}
+		    	</p>
+			</div>			
+		</div> 
+    </div>
+    <div class="column">
+    	 <div class="ui list">
+			<div class="ui icon header item">
+				 <a class="link">
+					 <i class="huge plane icon link icon"></i>
+				 </a>
+			</div>
+			<div class="item">
+				<div class="header">Informate</div>
+			</div>
+			<div class="ui clearing divider"></div>
+			<div class="item">
+				<p>Reciba informaci&oacute;n del Area M&eacute;dica desde NeliBox y/o Siganos en las Redes Sociales</p>
+			</div>
+			<div class="item">
+		    	{{#link-to 'social' class='item'}}Compartamos{{/link-to}}
+			</div>
+		</div>
+    </div>
+  </div>
+</div>
+<div class="ui clearing divider"></div>
+<div class="ui center aligned one column grid">
+	<div class="row">
+		<div class="column">
+			<div class="ui large divided horizontal list">
+				<div class="item">{{#link-to 'index' class='item'}}Inicio{{/link-to}}</div>
+				<div class="item">{{#link-to 'farmacia' class='item'}}Farmacia{{/link-to}}</div>
+				<div class="item">{{#link-to 'consultas' class='item'}}Consultas{{/link-to}}</div>
+				<div class="item">{{#link-to 'clinica' class='item'}}Clinica{{/link-to}}</div>
+				<div class="item">{{#link-to 'rayosx' class='item'}}Rayos X{{/link-to}}</div>
+				<div class="item">{{#link-to 'lab' class='item'}}Laboratorios{{/link-to}}</div>
+				<div class="item">{{#link-to 'contactar' class='item'}}Contactar{{/link-to}}</div>
+			</div>		
+		</div>
+	</div>
+</div>
+</div>
+</before-footer>
+<div class="ui clearing divider"></div>
+<footer>
+	<div class="ui two column page grid">
+		  <div class="left aligned column">
+			  <div class="item"><a href="/">2014 &copy; Derechos Reservados</a></div>	
+		  </div>
+		  <div class="right aligned column">
+		  	<div class="ui right animated horizontal list">
+			  <div class="item">
+			    <div class="content">
+			     <a class="link" href="http://www.facebook.com/nelibox" target="_blank" >
+					 <i class="circular inverted blue large facebook icon link icon"></i>
+				 </a>
+			    </div>
+			  </div>
+			  <div class="item">
+			    <div class="content">
+			     <a class="link" href="http://twitter.com/nelibox" target="_blank">
+					 <i class="circular inverted blue large twitter icon link icon"></i>
+				 </a>
+			    </div>
+			  </div>
+			  <div class="item">
+			    <div class="content">
+			     <a class="link" href="https://plus.google.com/+NeliboxClinic" target="_blank">
+					 <i class="circular inverted blue large google plus icon link icon"></i>
+				 </a>
+			    </div>
+			  </div>
+			</div>	
+		   </div>
+	</div>
+</footer>
