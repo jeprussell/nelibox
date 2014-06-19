@@ -1,4 +1,5 @@
 // models/geoip.js
+import DS from "ember-data";
 var geo = DS.Model.extend({
 	 //id: 'number',
 	 ip: DS.attr('string'),

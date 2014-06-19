@@ -1,3 +1,4 @@
+import Ember from "ember";
 var Person = Ember.Object.extend({
     firstName : "",
     lastName : "",

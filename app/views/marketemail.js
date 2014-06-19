@@ -1,3 +1,4 @@
+import Ember from "ember";
 export default Ember.View.extend({
   tagName: 'iframe',
   attributeBindings: ['src','width','height','frameborder'],

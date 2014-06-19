@@ -1,3 +1,5 @@
+import Ember from "ember";
+import $ from "ember";
 export default Ember.ObjectController.extend(Ember.Validations.Mixin,{
 	actions: {
 		Contacto: function() {

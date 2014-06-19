@@ -1,3 +1,4 @@
+import Ember from "ember";
 var ThingModel = Ember.Object.extend({
 	nombre: "",
 	apellido: "",

@@ -1,5 +1,6 @@
 //export default DS.FixtureAdapter.extend();
 // adapters/application.js
+import DS from "ember-data";
 export default DS.RESTAdapter.extend({
 	//console.log('normalizeId was called');
 //	namespace: 'json',
