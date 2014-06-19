@@ -26,6 +26,7 @@ Router.map(function() {
   //});
 });
 
+
 Router.reopen({
    /* notifyGoogleAnalytics: function() {
     return ga ('send', 'pageview', {
@@ -40,6 +41,7 @@ Router.reopen({
   //location: history.pushState ? 'history' : 'hash'
   location: 'history'
 });
+
 
 Ember.Route.reopen({
   render: function(/*controller, model*/) {
