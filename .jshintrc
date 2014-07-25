@@ -2,7 +2,10 @@
   "predef": {
     "document": true,
     "window": true,
-    "NeliboxENV": true
+    "NeliboxENV": true,
+    "Ember": true, // Added
+    "$": true, // ADDED
+    "DS": true
   },
   "browser" : true,
   "boss" : true,
