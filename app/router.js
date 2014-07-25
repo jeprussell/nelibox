@@ -9,6 +9,7 @@ Router.map(function() {
   this.route('detalles');
   this.route("blog", { path: "/blog" });
   this.route('contactar');
+  this.route('probar');
   //this.route("favorites", { path: "/favs" });
   this.route('todos');
   this.route('clinica');
