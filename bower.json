@@ -29,6 +29,10 @@
     "jquery.cookie": "~1.4.1",
     "base64": "~0.3.0",
     "datatables": "~1.10.1",
-    "jstree": "~3.0.2"
+    "jstree": "~3.0.2",
+    "js-xls": "~0.7.1",
+    "session.js": "~0.4.1",
+    "ic-autocomplete": "~0.1.0",
+    "ember-simple-auth": "~0.6.4"
   }
 }
