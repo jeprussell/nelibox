@@ -1,0 +1,15 @@
+{
+  "name": "session.js",
+  "homepage": "https://github.com/codejoust/session.js",
+  "version": "0.4.1",
+  "_release": "0.4.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.4.1",
+    "commit": "99332fd3c99a247357aceb59b720ff745b7f819e"
+  },
+  "_source": "git://github.com/codejoust/session.js.git",
+  "_target": "~0.4.1",
+  "_originalSource": "session.js",
+  "_direct": true
+}

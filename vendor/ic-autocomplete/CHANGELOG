@@ -1,0 +1,94 @@
+v0.1.0
+Fri, 20 Jun 2014 20:01:52 GMT
+
+3bbe3a7 [fixed] initializer name
+94c5ccf [fixed] trying to select a destroyed option
+11e424b [fixed] backspace issue with new async support
+25a960e [added] support for asynchronous lists
+
+
+v0.0.13
+Wed, 04 Jun 2014 20:52:46 GMT
+
+3bbe3a7 [fixed] initializer name
+94c5ccf [fixed] trying to select a destroyed option
+11e424b [fixed] backspace issue with new async support
+25a960e [added] support for asynchronous lists
+
+
+v0.0.12
+Tue, 03 Jun 2014 14:49:13 GMT
+
+3bbe3a7 [fixed] initializer name
+94c5ccf [fixed] trying to select a destroyed option
+11e424b [fixed] backspace issue with new async support
+25a960e [added] support for asynchronous lists
+
+
+v0.0.11
+Mon, 02 Jun 2014 21:02:07 GMT
+
+94c5ccf [fixed] trying to select a destroyed option
+11e424b [fixed] backspace issue with new async support
+25a960e [added] support for asynchronous lists
+
+
+v0.0.10
+Sat, 03 May 2014 19:51:38 GMT
+
+11e424b [fixed] backspace issue with new async support
+25a960e [added] support for asynchronous lists
+
+
+v0.0.8
+Sat, 03 May 2014 03:53:00 GMT
+
+475f40a [fixed] box-sizing definition
+
+
+v0.0.7
+Sat, 03 May 2014 03:49:07 GMT
+
+c5f3c38 [fixed] the z-index wars
+
+
+v0.0.6
+Sat, 03 May 2014 03:44:54 GMT
+
+78284e9 [fixed] closing on focusOut with non-matching text
+4744ba0 [fixed] opening list w/o selection
+344c40f [fixed] aria-attributes
+3a2bfac [added] a pretty decent test suite
+
+
+v0.0.5
+Thu, 01 May 2014 19:02:41 GMT
+
+815a187 [fixed] autocompleteOption destruction
+
+
+v0.0.4
+Thu, 01 May 2014 17:12:37 GMT
+
+8ab00ad [fixed] autocomplete labels with spaces
+15d3288 [changed] selection on autocomplete
+
+
+v0.0.3
+Thu, 01 May 2014 00:38:03 GMT
+
+768493b [added] looping when navigating list
+
+
+v0.0.2
+Wed, 30 Apr 2014 23:19:37 GMT
+
+
+
+
+v0.0.1
+Wed, 30 Apr 2014 22:53:07 GMT
+
+
+
+

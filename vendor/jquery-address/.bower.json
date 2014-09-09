@@ -1,0 +1,14 @@
+{
+  "name": "jquery-address",
+  "homepage": "https://github.com/asual/jquery-address",
+  "_release": "870ed7ab24",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "870ed7ab249a129a5da0c795e660ead5f49eb6c0"
+  },
+  "_source": "git://github.com/asual/jquery-address.git",
+  "_target": "*",
+  "_originalSource": "jquery-address",
+  "_direct": true
+}

@@ -1,0 +1,14 @@
+{
+  "name": "cldr",
+  "homepage": "https://github.com/jamesarosen/CLDR.js",
+  "version": "1.0.1",
+  "_release": "1.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.1",
+    "commit": "5edc7b6799e07fc00ba3ce18fb42c46c4683d6bd"
+  },
+  "_source": "git://github.com/jamesarosen/CLDR.js.git",
+  "_target": "^1.0",
+  "_originalSource": "cldr"
+}

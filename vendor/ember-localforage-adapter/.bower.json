@@ -1,0 +1,40 @@
+{
+  "name": "ember-localforage-adapter",
+  "version": "0.1.1",
+  "homepage": "https://github.com/genkgo/ember-localforage-adapter",
+  "authors": [
+    "Ryan Florence <rpflorence@gmail.com>",
+    "Frederik Bosch <f.bosch@genkgo.nl>"
+  ],
+  "description": "Store your ember application data in Mozilla's localforage. This project is orginally forked from ember-localstorage-adapter",
+  "main": "localforage_adapter.js",
+  "keywords": [
+    "localforage",
+    "websql",
+    "indexeddb",
+    "localstorage",
+    "ember",
+    "ember-data"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "script",
+    "test",
+    "vendor"
+  ],
+  "dependencies": {
+    "ember-data": "1.0.0-beta.8",
+    "ember": ">= 1.0.0",
+    "localforage": "0.8.*"
+  },
+  "_release": "0.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.1",
+    "commit": "50bf18ca445874c509e8c61d29210663614cbd7b"
+  },
+  "_source": "git://github.com/genkgo/ember-localforage-adapter.git",
+  "_target": "~0.1.1",
+  "_originalSource": "ember-localforage-adapter",
+  "_direct": true
+}
