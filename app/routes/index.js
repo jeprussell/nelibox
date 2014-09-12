@@ -1,5 +1,6 @@
 import Ember from "ember";
 export default Ember.Route.extend({
+
 	 model: function() {
   //   return this.store.find('geo');
   // return this.store.find('geo', {'type' : 'custom_post_type_slug'});
@@ -38,6 +39,11 @@ export default Ember.Route.extend({
       country_name: 10
     });*/
    // 
+  },
+  afterModel: function(model) {
+    //var artistName = this.modelFor('artist').get('name');
+    //$(document).attr('title', artistName + ' songs - Rock & Roll');
+    document.title = "NeliBox Sistemas Medicos Farmacia Consulta Laboratorio Rayos X";
   }
   //,
   //controllerName: 'geo',

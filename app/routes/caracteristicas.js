@@ -6,7 +6,7 @@ var Person = Ember.Object.extend({
 });
 
 
-var FarmaciaRoute = Ember.Route.extend({
+export default Ember.Route.extend({
 	
 	model: function(){
       return Person.create();
@@ -15,10 +15,7 @@ var FarmaciaRoute = Ember.Route.extend({
         controller.set("model", model);
     },
     afterModel: function(model) {
-    //var artistName = this.modelFor('artist').get('name');
-    //$(document).attr('title', artistName + ' songs - Rock & Roll');
-    document.title = "NeliBox Sistemas Gestion de Farmacias";
+	    document.title = "NeliBox Caracteristicas de Sistema Administracion medica";
+	    $('head meta[name="description"]').attr('content', "Caracteristicas Software Clinico Nelibox para salud de pacientes  e historias medicas");
     }
 });
-
-export default FarmaciaRoute;
