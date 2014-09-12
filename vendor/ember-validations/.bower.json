@@ -1,0 +1,14 @@
+{
+  "name": "ember-validations",
+  "_cacheHeaders": {
+    "ETag": "\"64532f42fa1f71cf63afb95cc7b3f781\"",
+    "Last-Modified": "Tue, 17 Jun 2014 14:24:29 GMT",
+    "Content-Length": "23066",
+    "Content-Type": "text/javascript"
+  },
+  "_release": "e-tag:64532f42f",
+  "main": "index.js",
+  "_source": "http://builds.dockyard.com.s3.amazonaws.com/ember-validations/ember-validations-latest.js",
+  "_target": "*",
+  "_originalSource": "http://builds.dockyard.com.s3.amazonaws.com/ember-validations/ember-validations-latest.js"
+}

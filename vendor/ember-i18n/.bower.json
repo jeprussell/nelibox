@@ -1,0 +1,47 @@
+{
+  "name": "ember-i18n",
+  "version": "2.0.0",
+  "description": "I18n support for Ember.js",
+  "main": [
+    "lib/i18n.js"
+  ],
+  "dependencies": {
+    "cldr": "^1.0",
+    "jquery": ">=1.7 <3",
+    "handlebars": "^1.0",
+    "ember": "^1.0"
+  },
+  "scripts": {
+    "test": "rake"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jamesarosen/ember-i18n.git"
+  },
+  "keywords": [
+    "ember",
+    "emberjs",
+    "i18n",
+    "internationalization"
+  ],
+  "author": "James A. Rosen",
+  "license": "APLv2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "spec",
+    "vendor",
+    "Makefile"
+  ],
+  "homepage": "https://github.com/jamesarosen/ember-i18n",
+  "_release": "2.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.0.0",
+    "commit": "529d4223bf36d7c7b5ca5055f32e0f9d44382423"
+  },
+  "_source": "git://github.com/jamesarosen/ember-i18n.git",
+  "_target": "~2.0.0",
+  "_originalSource": "ember-i18n",
+  "_direct": true
+}

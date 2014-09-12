@@ -13,6 +13,11 @@ var FarmaciaRoute = Ember.Route.extend({
 	},
     setupController : function(controller, model){
         controller.set("model", model);
+    },
+    afterModel: function(model) {
+    //var artistName = this.modelFor('artist').get('name');
+    //$(document).attr('title', artistName + ' songs - Rock & Roll');
+    document.title = "NeliBox Sistemas Gestion de Farmacias";
     }
 });
 
